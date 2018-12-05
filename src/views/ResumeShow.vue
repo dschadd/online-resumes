@@ -1,7 +1,11 @@
 <template>
   <div class="resume-show">
     <div class="container">
-      <img class="card-img-top" src="" alt="Profile pic" />
+      <img
+        class="card-img-top w-25 p-3"
+        src="https://www.realityblurred.com/realitytv/images/2018/09/joe-schmo-show-matt-kennedy-gould.jpg"
+        alt="Profile pic"
+      />
       <div class="card text-center">
         <div class="card-body">
           <h4 class="card-title">{{ student.first_name + " " + student.last_name }}</h4>
